@@ -1,0 +1,17 @@
+[
+  {
+    "timestamp": "2025-05-26T06:13:02.799479",
+    "step": "EXTRACT_CSV",
+    "details": {
+      "file": "sample_data.csv",
+      "rows": 1000,
+      "columns": 7
+    }
+  },
+  {
+    "timestamp": "2025-05-26T06:13:02.805266",
+    "step": "DATA_QUALITY",
+    "details": {
+      "rows": 1000,
+      "columns": 7,
+      "duplicates": 

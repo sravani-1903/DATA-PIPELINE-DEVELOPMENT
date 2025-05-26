@@ -1,0 +1,34 @@
+[
+    {
+        "timestamp": "2025-05-26T06:26:33.584759",
+        "step": "EXTRACT_CSV",
+        "details": {
+            "source": "dummy_data.csv",
+            "shape": [
+                100,
+                9
+            ],
+            "memory_usage": "0.02 MB"
+        }
+    },
+    {
+        "timestamp": "2025-05-26T06:26:33.584909",
+        "step": "EXTRACTION_COMPLETE",
+        "details": {
+            "rows": 100,
+            "columns": 9
+        }
+    },
+    {
+        "timestamp": "2025-05-26T06:26:33.596893",
+        "step": "QUALITY_ANALYSIS_COMPLETE",
+        "details": {
+            "report_name": "Initial Quality Report",
+            "missing_rate": 2.4444444444444446
+        }
+    },
+    {
+        "timestamp": "2025-05-26T06:26:36.624587",
+        "step": "MISSING_VALUE_HANDLING",
+        "details": {
+            "missing_before": 
